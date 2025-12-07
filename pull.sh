@@ -8,3 +8,4 @@ cd "$(dirname "$(readlink -f "$0")")"
 
 git checkout "$SOURCE"
 git pull "$REPO" "$SOURCE"
+ 
